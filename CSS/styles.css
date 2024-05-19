@@ -100,7 +100,7 @@ a:hover {
 .main-block {
   width: 1440px;
   height: 600px;
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .main-block-item {
   font-weight: 700;
@@ -128,6 +128,9 @@ a:hover {
 .adventages {
   width: 1128px;
   height: 104px;
+}
+.adventages-list {
+  background-color: #fff;
 }
 .adventages-subtitle {
   font-weight: 500;
@@ -170,14 +173,6 @@ a:hover {
   text-transform: capitalize;
 }
 .team-list {
-  width: 264px;
-  height: 260px;
-  background-color: #ffffff;
-}
-.team-list-item {
-  background-color: #ffffff;
-}
-.team-list-image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,7 +184,21 @@ a:hover {
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
+  background-color: #fff;
+}
+
+.team-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 232px;
+  height: 56px;
+}
+.team-list-image {
+  width: 264px;
+  height: 260px;
 }
 .team-subtitle {
   font-weight: 500;
@@ -208,7 +217,9 @@ a:hover {
   color: #434455;
 }
 .portfolio {
-  background-color: #f4f4fd;
+  width: 1128px;
+  height: 1000px;
+  background-color: #fff;
 }
 .portfolio-title {
   line-height: 1.11;
