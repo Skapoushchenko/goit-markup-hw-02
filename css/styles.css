@@ -13,18 +13,10 @@ a:hover {
   color: #404bbf;
 }
 .header {
-  width: 1440px;
-  height: 72px;
 }
 
 .header-navigation {
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
-  height: 24px;
 }
 
 .header-menu-logo {
@@ -35,26 +27,14 @@ a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
-  align-items: center;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-  width: 115px;
-  height: 24px;
 }
 .header-logo-studio {
   color: #2e2f42;
 }
 
 .header-menu-list {
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
-  height: 24px;
 }
 
 .header-menu-item {
@@ -76,13 +56,7 @@ a:hover {
 }
 
 .header-info-list {
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
-  height: 24px;
 }
 
 .address-link {
@@ -98,8 +72,6 @@ a:hover {
 }
 
 .main-block {
-  width: 1440px;
-  height: 600px;
   background-color: #2e2f42;
 }
 .main-block-item {
@@ -168,8 +140,6 @@ a:hover {
 }
 
 .team {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
 }
 .team-title {
@@ -182,32 +152,15 @@ a:hover {
   text-transform: capitalize;
 }
 .team-list {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 32px;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
 }
 
 .team-list-item {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-  width: 232px;
-  height: 56px;
+  background-color: #ffffff;
 }
 .team-list-image {
-  width: 264px;
-  height: 260px;
 }
 .team-subtitle {
   font-weight: 500;
@@ -226,8 +179,6 @@ a:hover {
   color: #434455;
 }
 .portfolio {
-  width: 1128px;
-  height: 1000px;
   background-color: #fff;
 }
 .portfolio-title {
@@ -240,22 +191,12 @@ a:hover {
   text-transform: capitalize;
 }
 .portfolio-list {
-  width: 1128px;
-  height: 420px;
   background-color: #ffffff;
 }
 .portfolio-list-item {
-  display: flex;
-  align-items: flex-start;
   justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-  border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
-  width: 360px;
-  height: 120px;
 }
 .portfolio-list-subtitle {
   color: #2e2f42;
@@ -273,8 +214,6 @@ a:hover {
 }
 
 .footer {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 .footer-link-logo {
@@ -285,13 +224,7 @@ a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
-  align-items: center;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-  width: 115px;
-  height: 24px;
 }
 .footer-logo-studio {
   color: #f4f4fd;
